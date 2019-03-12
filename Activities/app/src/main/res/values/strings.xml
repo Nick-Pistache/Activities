@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Activities</string>
+    <string name="Edit_login">Login</string>
+    <string name="button">SEND</string>
+</resources>
