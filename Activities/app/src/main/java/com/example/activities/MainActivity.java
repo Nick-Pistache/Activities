@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v){
-                Intent testActivity = new Intent(MainActivity.this, HomeActivity.class);
-                startActivity(testActivity);
+                Intent HomeActivity = new Intent(MainActivity.this, HomeActivity.class);
+                startActivity(HomeActivity);
                 Toast.makeText(MainActivity.this, mEdit.getText().toString(), Toast.LENGTH_LONG).show();
             }
         });
