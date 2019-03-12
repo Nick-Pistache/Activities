@@ -1,26 +1,21 @@
-package com.example.android4;
+package com.example.activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.Button;
 import android.view.View;
-import android.widget.Toast;
+import android.widget.Button;
 import android.widget.EditText;
-
-import com.example.activities.HomeActivity;
-import com.example.activities.R;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-
-    EditText mEdit;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mEdit = findViewById(R.id.editText);
+        final EditText mEdit = findViewById(R.id.editText);
 
 
         final Button button = findViewById(R.id.button);
@@ -34,7 +29,4 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
-
-
 }
